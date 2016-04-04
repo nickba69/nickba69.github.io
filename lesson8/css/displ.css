@@ -1,0 +1,152 @@
+ *{transition: all .1s ease-in;}
+
+*, html, body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+.content{
+	padding-top: 119px;
+	margin:auto;
+	width: 830px;
+	height: 472px;
+}
+.bigmon{
+	position: relative;
+	top:102px;
+	margin-left: 58px;
+	width: 537px;
+	height: 332px;
+	background: #454b51;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	background: #454b51;
+	z-index: 1;
+}
+
+.bmwed {
+	border-radius: 50%;
+    top: 15px;
+    background: #e6ecee;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 263px;
+}
+
+.bmbot{
+	position: relative;
+	position: relative;
+	top: 332px;
+	right: 58px;
+	border-bottom: 38px solid #e3e3e3;
+	width: 653px;
+	height: 38px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+.bmbotbtn{
+	margin:auto;
+	background: #747979;
+	width: 94px;
+	height: 13px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+
+}
+.bmins{
+	margin-left: 28px;
+	background: #00baf3;
+	width: 481px;
+	height: 276px;
+}
+
+.pmon{
+	position: relative;
+	margin-left: 473px;
+	top: -332px;
+	width: 326px;
+	height: 472px;
+	background: #454b51;
+	border-radius: 15px;
+	background: #454b51;
+	z-index: 1;
+}
+
+.pins{
+	position: relative;
+	background: #e74c3c;
+	top:47px ;
+	left: 34px;
+	width: 258px;
+	height: 379px;
+}
+
+.pwed{
+	border-radius: 50%;
+    top: 15px;
+    background: #e6ecee;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 158px;
+}
+.pbtn{
+	border-radius: 50%;
+    top: 436px;
+    background: rgba(230, 236, 238, 0.25);
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 151px;
+}
+
+.mmon{
+    position: relative;
+    margin-left: 703px;
+    top: -580px;
+    width: 127px;
+    height: 248px;
+    background: #454b51;
+    border-radius: 15px;
+    background: #454b51;
+    z-index: 1;
+}
+.mins{
+    position: relative;
+    background: #f39c12;
+    top: 38px;
+    left: 10px;
+    width: 107px;
+    height: 173px;
+}
+.mwed{
+	border-radius: 50%;
+    top: 9px;
+    background: #e6ecee;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 58px;
+}
+
+.mdin{
+	border-radius: 5px;
+    top: 26px;
+    background: #e6ecee;
+    width: 33px;
+    height: 5px;
+    position: absolute;
+    left: 47px;
+}
+.mbtn{
+	border-radius: 50%;
+    top: 219px;
+    background: rgba(230, 236, 238, 0.25);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 54px;
+}

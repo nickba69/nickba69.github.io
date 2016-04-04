@@ -1,0 +1,305 @@
+ *{transition: all .1s ease-in;}
+
+*, html, body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+body{
+	color: #717171;
+	font-family: Geneva, Arial, Helvetica, sans-serif
+}
+
+
+.bgwidth{
+	width: 1280px;
+	margin: auto;
+	
+}
+.bgpic{
+	background: url(../images/bg.png);
+		height: 590px;
+
+}
+
+
+/************************** TOP MENU *******************************/
+header {
+	height: 90px;
+	background: rgba(255, 255, 255, 0.43);
+}
+.top-menu li{
+	display: inline-block;
+	text-align: center;
+	margin: 45px 0px 35px 35px;
+}
+.top-menu ul li.login{
+	background: #de6d6e;
+	padding: 5px 15px;
+	border-radius: 5px;
+	margin: 0px 168px 0px 40px;
+	color: #fff;
+}
+.login div{
+	display: inline-block;
+	background-image: url(../images/manico.png);
+	width: 15px;
+	height: 15px;
+	margin-right: 7px;
+
+}
+
+.logo {
+	float: left;
+	margin-left: 160px;
+	margin-top: 15px;
+	background-image: url(../images/logo.png);
+	height: 70px;
+	width: 145px;
+}
+
+.top-menu ul{
+	text-align: right;
+}
+
+/*** **************************************END TOP MENU *************************/
+
+
+/*** **************************************FLOWER PICTURE **************************/
+.sek1 div {
+	color: white;
+	
+	text-align: center;
+
+	
+}
+
+.sek1 div h1{
+	position: relative;
+	margin-top: 200px;
+	font-size: 65px;
+	text-transform: uppercase;
+}
+
+.sek1 div p{
+	font-size: 18px;
+}
+
+.bubble1, .bubble2, .bubble3{
+	border-radius: 50%;
+	background: white;
+
+}
+
+.bubble1{
+	position: relative;
+	top: 175px;
+	margin: auto;
+	width: 120px;
+	height: 120px;
+	opacity: 0.5;
+
+}
+.bubble2{
+	position: relative;
+	left: 75px;
+	bottom: 45px;
+	width: 90px;
+	height: 90px;
+	opacity: 0.6;
+}
+
+.bubble3{
+    position: relative;
+    left: 95px;
+    width: 68px;
+    height: 68px;
+    bottom: 62px;
+    opacity: 0.8;
+}
+/*** ***********************************END FLOWER PICTURE **************************/
+/***************************************** SECOND SECTION   ********************/
+
+.sek2 h2{
+	font-size: 33px;
+	font-weight: 100;
+	margin: 65px 0px 20px 0px;
+	text-align: center;
+	
+}
+
+.sek2 p{
+	width: 830px;
+	padding-bottom: 85px;
+	margin:auto;
+	font-size: 16px;
+}
+
+section.sek2 ul li {
+	display: inline-block;
+}
+section.sek2 ul li span{
+	margin-left: 60px;
+    margin-top: 10px;
+}
+
+.sek2 ul{
+	width: 1035px;
+	margin: auto;
+	
+}
+
+.sek2 ul li.ticket, .sek2 ul li.camera, 
+.sek2 ul li.beer, .sek2 ul li.device{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	margin: 0px 35px;
+
+
+}
+
+.sek2 ul li.ticket{
+		background: #4eb9f4;
+}
+
+.sek2 ul li.camera{
+	background: #6fc125;
+}
+
+.sek2 ul li.beer{
+	background: #ff5649;
+}
+
+.sek2 ul li.device{
+	background: #e48f23;
+}
+
+
+section.sek2 ul li.ticket i,section.sek2 ul li.camera i,
+section.sek2 ul li.beer i, section.sek2 ul li.device i{
+	display: inline-block;
+	margin-left:50px;
+	margin-top:40px;
+	width: 80px;
+	height: 80px;
+
+}
+
+section.sek2 ul li.ticket i{background-image: url(../images/ticket.png);}
+
+section.sek2 ul li.camera i{background-image: url(../images/camera.png);}
+
+section.sek2 ul li.beer i{background-image: url(../images/beer.png);}
+	
+section.sek2 ul li.device i{background-image: url(../images/device.png);}
+
+/***************************************** END SECOND SECTION   ********************/
+
+/*****************************THIRD SECTION (POSTS)***********************/
+
+
+div.separator{
+	height: 40px;
+	border-top: 1px solid gray;
+	margin-top:55px;
+}
+
+
+div.img i{
+	display: inline-block;
+	width: 200px;
+	height: 132px;
+	background-image: url(../images/photo.png);
+
+}
+div.img {
+	display: inline-block;
+	margin: -7px 20px 80px 190px;
+	vertical-align: top;
+
+}
+div.post {
+	display: inline-block;
+	width: 720px;
+	
+}
+.sek3 h3{
+	display: inline-block;
+	font-size: 25px;
+	margin: 8px 0px 12px 0px; 
+	
+}
+
+.sek3 p{
+line-height: 20px;
+}
+/*****************************THIRD SECTION (POSTS)***********************/
+
+/************  FOOTER  *****************/
+ul.double{
+	width: 30% ;
+	vertical-align: top;
+	margin-left: -55px;
+
+}
+.double  li{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background: gray;
+	border-radius: 50%;
+	margin-right: 20px;
+	margin-top: 20px;
+
+
+}
+.double i{
+	display: inline-block;
+	padding: 45px 0px 0px 45px;
+}
+
+i.fb{
+	background: url(../images/fb.png);
+}
+
+i.tw{
+	background: url(../images/tw.png);
+}
+
+i.ball{
+	background: url(../images/ball.png);
+}
+i.share{
+	background: url(../images/share.png);
+}
+.itmarg{
+	margin-left: -30px;
+}
+
+footer{
+	width: 1280px;
+	background: url(../images/footerbg.png);
+}
+
+
+footer ul li:first-child{
+	padding-bottom: 25px;
+	font-size: 20px;
+	font-weight: 100;
+
+}
+footer div{
+	margin-left: 200px;
+	padding-top: 35px;
+
+}
+footer ul{
+	display: inline-block;
+	width: 18%;
+	margin-bottom: 35px;
+}
+
+/************** END FOOTER  *********************/

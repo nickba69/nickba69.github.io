@@ -1,0 +1,135 @@
+ *{transition: all .1s ease-in;}
+
+*, html, body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	color: white;
+}
+body{
+	background: #1e313b;
+}
+
+
+span{
+	display: block;
+	margin-top: 10px;
+	font-size: 18px;
+	color: white;
+	opacity:  0.5;
+}
+
+i{
+	font-size: 30px;
+
+}
+
+ul {
+        font: 14px Verdana, Geneva, sans-serif;
+		background: #fff;
+        /* Выставляем родителю значение -.36em */
+       font-size: 0px ;
+       border: 3px solid white;
+}
+h1,p{
+	padding: 20px;
+}
+
+.outer{
+
+	position: inherit;
+	margin: 15px;
+	background: #3399cc;
+	
+
+}
+
+.inner{
+	margin: auto;
+	width: 1000px;
+	height: 640px;
+
+	
+}
+
+.width_25, .width_50, .width_100{
+	display: inline-block; 
+	border: 3px solid white;
+	height: 120px;
+	text-align: center;
+	padding-top: 25px;
+	font-size: 25px;
+
+}
+.width_25{
+	width: 25%;
+
+
+}
+
+.width_50{
+	width: 50%
+
+
+}
+
+.width_100{
+	width: 100%;
+
+}
+
+.col1{
+	background: #3399cc;
+}
+
+.col2{
+	background: #33cccc;
+}
+
+.col3{
+	background: #996699;
+}
+
+.col4{
+	background: #c24747;
+}
+
+.col5{
+	background: #e2674a;
+	
+}
+
+.col6{
+	background: #ffcc66;
+	
+}
+
+.col7{
+	background: #99cc99;
+}
+
+.col8{
+	background: #669999;
+}
+
+.col9{
+	background: #cc6699;
+}
+
+.col10{
+	background: #339966;
+}
+
+.col11{
+	background: #666699;
+}
+
+
+
+ul:hover li:not(:hover) {
+	opacity: 0.5;
+	
+
+}
+

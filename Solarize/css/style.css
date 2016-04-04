@@ -1,0 +1,157 @@
+*, html, body{
+	margin: 0;
+	padding: 0;
+}
+body{
+	min-width: 700px;
+}
+header{
+	background: url('../images/top1.jpg') #FFF no-repeat left top;
+	background-size: cover;
+}
+header, h2{
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.menu{
+	background: rgba(0, 0, 0, 0.6);
+
+}
+
+.menu li a :nth-child(3){
+	background: green !important;
+
+}
+
+.menu ul:hover li a{
+    -webkit-filter: blur(1px);
+
+   
+}
+
+
+.menu ul li a:hover{
+
+	-webkit-filter: blur(0);
+
+}
+
+.menu ul{
+	list-style: none;
+
+}
+
+.menu ul li{
+	display:inline-block;
+}
+
+.menu ul li a{
+	display:inline-block; ;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 20px 10px;
+
+
+}
+header h1{
+	display: inline-block;
+	 background: #81B536;
+	 font-size: 28px;
+	 padding: 3px;
+	 margin-bottom: 30px;
+}
+
+header .inner{
+	padding: 100px 19px;
+}
+
+.inner p{
+	padding: 0 30%;
+	padding-bottom: 20px;
+	line-height: 1.45;
+}
+/**************section**********************/
+section{
+	text-align: center;
+	float:top;
+
+}
+section p{
+	margin:35px 0px;
+}
+
+section h3{
+	font-size: 30px;
+}
+.col1 p{
+	font-size: 20px
+}
+.col1{
+	
+	width:35%;
+	display: inline-block;
+	
+}
+
+.col2{
+	float: right;
+
+	width: 35%;
+}
+.col1, .col2{
+	text-align: left;
+		margin: 70px 50px 100px; 
+}
+
+.button2{
+	text-decoration: none;
+	color: #81B536;
+	border: 1px solid 	#81B536;
+	text-transform: uppercase;
+	font-size: 12px;
+	
+	padding: 9px;
+}
+
+.button2:hover{
+	background: #748E50;
+}
+
+
+
+/*******************************************/
+/**************footer***********************/
+footer{
+		 background: #81B536;
+		 text-align: center;
+		 padding: 65px 25%;
+		 
+}
+.footer{
+
+}
+
+footer p{
+	line-height: 1.45;
+	text-align: center;
+	color: #fff;
+	padding: 25px 0px;
+}
+.button1{
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	
+	padding: 9px;
+}
+
+.button1:hover{
+	background: #748E50;
+}
+/**************************************/
