@@ -1,0 +1,318 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+@import url(https://fonts.googleapis.com/css?family=Exo:400,800,900);
+* {
+	margin: 0;
+	padding: 0;
+}	
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+header{
+	background: #1a1a1a;
+}
+
+.top-menu{
+	padding: 43px 0px 40px 0px;
+	border-bottom: 1px solid #555456;
+}
+
+nav{
+	margin-top: 10px;
+	margin-right: 8.33%;
+}
+
+nav li{
+	margin-left: 35px;
+}
+
+
+nav li a{
+	color: #fff;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+nav li a:hover{
+	text-decoration: none;
+	color:#1dde85;
+	border-bottom: 1px solid #1dde85;
+	padding-bottom: 14px;
+}
+
+header>.container{
+	color:#fff;
+	padding:261px 0px 279px 0px;
+}
+
+header>.container h1{
+	font-family: 'Exo', sans-serif;
+	font-weight: 400;
+	font-size: 48px;
+	margin-bottom: 55px;
+	margin-top: 0px;
+}
+header>.container h1 span{
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #1dde85;
+	
+}
+
+header>.container p{
+	line-height:2; 
+}
+
+
+
+/*******************************************************/
+.content{
+	padding: 127px 0px;
+}
+
+.content .container>h2{
+	font-size: 30px;
+	margin-bottom: 60px;
+}
+
+.content .container>h2 span{
+	color: #1dde85;
+}
+
+.content .container h2 + .row p{
+	line-height: 2;
+	margin-bottom: 83px;
+}
+
+.outline{
+	border: 1px solid #cbc9c6;
+	padding: 35px 18px 30px;
+	margin-bottom: 48px;
+}
+
+.outline p{
+	color: #cbc9c6;
+}
+
+.outline h4{
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+.outline:hover{
+	border: 1px solid #1dde85;
+}
+
+.outline:hover .fa, 
+.outline:hover h4 {
+	color:#1dde85;
+}
+.outline:hover p{
+	color: #515152;
+}
+
+.dark{
+	background: #4a4a4b;
+	color: #fff;
+	line-height: 18px !important;
+}
+
+.dark span{
+	display: block;
+	font-weight: 600;
+}
+
+.green-hover{
+	opacity: 0;
+	margin: 0px 15px;
+	color: #fff;
+	background: rgba(29, 222, 139, 0.9);
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+
+}
+
+.green-hover:hover{
+	opacity: 1;
+}
+
+.green-hover .names{
+	position: absolute;
+	top: 45%;
+	width: 100%;
+
+	text-align: center;
+}
+
+.green-hover .names span{
+
+	font-weight: 600;
+	margin: auto;
+	display: block;
+}
+
+.green-hover .socials{
+	border-top: 1px solid rgba(255, 255, 255, 0.7);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+	padding: 5px 0px;
+	position: absolute;
+	bottom: 10%;
+	width: 100%;
+
+}
+
+.green-hover a{
+	color: #fff;
+	padding: 10px;
+	font-size: 18px;
+}
+
+/*************HOMEWORK******************************/
+
+.greybox{
+	height: 390px;
+	background: #9a9a9a;
+	margin-top: 51px;
+}
+
+.middle-menu li a{
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	margin-right: 30px;
+}
+
+.middle-menu li a:hover{
+	color: #1dde85;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #1dde85;
+}
+
+.middle-menu{
+	margin-bottom: 6px !important;
+	
+}
+
+.works{
+	 margin-bottom: 41px !important;
+}
+
+.green-btn-1{
+    font-size: 18px;
+    padding: 19px 59px 16px 59px;
+    background: #1dde85;
+    margin-top: 46px;
+    margin-bottom: 111px;
+    display: inline-block;
+    color: #fffcf4;
+    font-weight: 100;
+}
+/************PRICES******************/
+.prices h5{
+	color: #8f8e91;
+	font-weight: 100;
+}
+
+.prices div h5{
+	padding-top:32px;
+	padding-bottom: 30px; 
+	font-size: 36px;
+	color:  rgba(69, 69, 70, 0.94);
+	font-weight: 400;
+	outline:1px solid #454546;
+	margin-bottom: 34px;
+	margin-top: 0px;
+
+}
+.prices div h5 span{
+	font-size: 18px;
+}
+
+.prices p{
+	color:  #8f8e91;
+	font-weight: 100;
+	font-size: 14px;
+
+}
+
+.green-btn-2{
+	color: rgba(69, 69, 70, 0.94);
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 46px;
+	padding: 14px 16px;
+	outline:1px solid #8f8e91;
+	margin-bottom: 23px;
+	
+}
+
+div.prices:hover div h5, div.prices:hover .green-btn-2{
+	background:  #1dde85;
+	outline: none;
+	border: none;
+	color: #fffcf4;
+}
+
+div.prices:hover h5{
+	color: #1dde85;
+}
+
+div.prices:hover .green-border{
+	outline: 1px solid #1dde85;
+	
+}
+.green-border{
+	margin-bottom: 127px;
+}
+
+
+/**************SAY HI********************/
+.say-hi{
+	background: #9a9a9a;
+}
+.say-hi h5{
+	margin: 39px 0px;
+	color: #fffcf4;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+
+
+.form input{
+	margin: 0px;
+	padding-left: 20px;
+	
+	width: 48%;
+	background: #9a9a9a;
+	border: none;
+	outline: 1px solid #c9c9c9;
+	height: 48px;
+}
+.form textarea{
+	padding-top: 20px;
+	padding-left: 20px;
+	background: #9a9a9a;
+	display: block;
+	width: 100%;
+	margin-top: 28px;
+    margin-right: 0px;
+}
+
+.text3{
+	text-align: left;
+}
+.text1{
+	margin-right: 33px !important;
+}
+
+.say-hi .green-btn-1{
+	margin-bottom: 38px;
+}

@@ -1,0 +1,279 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,600,700,900);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Cardo:400,400italic);
+	* {margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}	
+
+header{
+	min-height: 750px;
+	background: url(../images/banner.jpg) center center;
+}
+
+header nav{
+	padding-bottom: 33px;
+	border-bottom:1px solid rgba(255, 255, 255, 0.3);
+	margin-top: 40px;
+	font-size: 13px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+}
+header nav ul li a{
+	font-size: 13px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	color: #fff !important;
+	text-decoration: none !important;
+	margin-left: 60px;
+	text-transform: uppercase;
+}
+
+header div h1{
+	margin: 143px auto 27px auto;
+	text-transform: uppercase;
+max-width:920px; 
+font-family: 'Open Sans', sans-serif;
+color:  #ffffff;
+font-weight: 700;
+text-align: center;
+font-size: 65px;
+	
+}
+header div p{
+	width: 985px;
+	margin: auto;
+color:  #fff;
+font-size: 22px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+text-align: center;
+
+}
+.btn{
+	display: inline-block;
+    padding: 13px 46px;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: normal;
+    border-radius: 2px !important;
+    margin-left: 43%;
+    margin-top: 73px;
+}
+/**FIRST SECTION***/
+.first{
+    margin-top: 120px !important;
+}
+.first h1{
+	margin-bottom: 20px;
+    margin-top: 34px;
+	color:  #2d3033;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-align: center;
+}
+.first p{
+	margin-bottom: 74px;
+	color:  #6c7279;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	text-align: center;
+}
+
+/********SECOND********/
+.second div img{
+    height: 250px;
+    width: 100%;
+}
+
+.second div{
+	padding: 0.5px 0.5px !important;
+	position: relative;
+}
+.second div.col-md-3:hover div.hover{
+	visibility: visible;
+}
+.hover{
+    top: 0px;
+    position: absolute !important;
+    background: rgba(236, 28, 28, 0.5);
+    width: 100%;
+    height: 252px;
+    visibility: hidden;
+}
+
+.second div.col-md-3 div.hover h4{
+	margin-top: 105px;
+	text-transform: uppercase;
+color:  #fff;
+font-size: 14px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+text-align: center;
+}
+.second div.col-md-3 div.hover p{
+color:  #fff;
+font-size: 14px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+text-align: center;
+}
+/**************THIRD************************/
+.third{
+	margin-top: 100px;
+}
+.third h3{
+	    margin-top: 28px;
+color:  #2d3033;
+font-size: 22px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+}
+.third h2{
+	    margin-top: 10px;
+	text-transform: uppercase;
+color:  #e84545;
+font-size: 13px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+}
+.third p{
+	margin-bottom: 35px;
+	    margin-top: 23px;
+
+color:  #6c7279;
+font-size: 14px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 21px;/* Приближение из-за подстановки шрифтов */
+}
+
+.third i{
+	display: inline;
+	padding: 11px 16px;
+	color: #e8ecee;
+	border:1px solid #e8ecee;
+}
+
+/****fourth****/
+.fourth{
+	margin-top: 110px;
+}
+.baba{
+	height: 500px;
+	background: url(../images/baba.jpg);
+}
+
+.slider{
+	background-color:  #53354a;
+height: 500px;
+}
+
+.slider h4{
+    margin: 109px 0px 0px 66px;
+	font-family: 'Cardo', serif;
+	color:  #fff;
+font-size: 36px;/* Приближение из-за подстановки шрифтов */
+font-style: italic;
+line-height: 42px;/* Приближение из-за подстановки шрифтов */
+}
+
+.slider p{
+	    margin-top: 27px;
+    margin-left: 73px;
+color:  #fff;
+font-size: 13px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+line-height: 21px;/* Приближение из-за подстановки шрифтов */
+}
+.fifth{
+	margin-top: 110px;
+}
+.fifth b{
+	display: inline-block;
+	width: 100%;
+	margin: 100px auto 0px auto;
+color:  #2d3033;
+font-size: 28px;/* Приближение из-за подстановки шрифтов */
+font-weight: 300;
+line-height: 21px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+}
+.fifth p{
+	padding-top: 12px;
+color:  #2d3033;
+font-size: 13px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+line-height: 21px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+}
+
+.fifth .btn{
+	margin-left: 39%;
+	   margin-top: 24px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: center;
+    padding: 13px 85px;
+}
+
+.blue-bg{
+	background: #3a3e64;
+	margin-top: 100px;
+	padding-bottom: 87px;
+}
+.sixth h5{
+	margin-top: 70px;
+	text-align: center;
+color:  #fff;
+font-size: 14px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+}
+.sixth p{
+	padding: 0px 90px;
+
+	text-align: center;
+color:   rgba(255, 255, 255, 0.5);
+font-size: 14px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 22.5px;/* Приближение из-за подстановки шрифтов */
+}
+.sixth .col-md-4 p:first-child{
+}
+
+.sixth b{
+	text-align: center;
+color:   rgba(255, 255, 255, 0.5);
+font-size: 14px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 22.5px;/* Приближение из-за подстановки шрифтов */
+}
+
+.sixth i {
+	color: #fff;
+	padding: 11px 16px;
+	border:1px solid #fff;
+}
+.margin-soc{
+	margin-left: 103px;
+}
+
+footer{
+	background: #313454;
+}
+
+footer i{
+	    color: #e84545;
+    font-size: 11px;
+    margin: 0 2px;
+}
+footer p{
+	display: inline-block;
+color:  rgba(255, 255, 255, 0.5);
+
+font-size: 14px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 22.5px;/* Приближение из-за подстановки шрифтов */
+}
+
+.vvv{
+text-align: center;
+}
+
+i.fa:hover{
+	background: #e84545;
+}

@@ -1,0 +1,452 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+
+* {
+	margin: 0;
+	padding: 0;
+	/*transition: all .1s ease-in;*/
+	box-sizing: border-box;
+}	
+
+.container{
+	padding: 0;
+	max-width: 1200px;
+	margin: auto;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.ub{
+    margin-top: 85px;
+	color: #333333;
+	text-align: center;
+}
+.ub span{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+
+}
+/*.ub div*/.red-line{
+	width: 60px;
+	height: 3px;
+	background: #f38181;
+	margin:35px auto 0px auto;
+}
+
+.ub h1{
+    margin-top: 12px;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.ub p{
+    margin: 43px auto 0px auto;
+    width: 950px;
+    font-family: 'Roboto', sans-serif;
+    color: #999;
+    font-size: 15px;
+    line-height: 24px;
+}
+/*********************************************/
+
+
+/********EAGLE BLOCK****************/
+.eagle{
+    min-height: 1000px;
+    background: url(../images/eagle2.jpg)  no-repeat;
+    background-position-y: -151px;
+    background-position-x: -290px;
+}
+.eagle .grad{
+min-height: 1000px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f38181+1,fce38a+86,fce38a+86,fce38a+86,fce38a+86,fce38a+86,fce38a+86,fce38a+86,fce38a+86,fce38a+89,fce38a+89,fce38a+91,fce38a+91,fce38a+94,fce38a+94,fce38a+94,fce38a+94,fce38a+97,fce38a+97,fce38a+97,fce38a+100&1+0,0.67+100 */
+background: -moz-linear-gradient(top,  rgba(243,129,129,1) 0%, rgba(243,129,129,1) 1%, rgba(252,227,138,0.72) 86%, rgba(252,227,138,0.71) 89%, rgba(252,227,138,0.7) 91%, rgba(252,227,138,0.69) 94%, rgba(252,227,138,0.68) 97%, rgba(252,227,138,0.67) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(243,129,129,1) 0%,rgba(243,129,129,1) 1%,rgba(252,227,138,0.72) 86%,rgba(252,227,138,0.71) 89%,rgba(252,227,138,0.7) 91%,rgba(252,227,138,0.69) 94%,rgba(252,227,138,0.68) 97%,rgba(252,227,138,0.67) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(243,129,129,1) 0%,rgba(243,129,129,1) 1%,rgba(252,227,138,0.72) 86%,rgba(252,227,138,0.71) 89%,rgba(252,227,138,0.7) 91%,rgba(252,227,138,0.69) 94%,rgba(252,227,138,0.68) 97%,rgba(252,227,138,0.67) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f38181', endColorstr='#abfce38a',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+.eagle .grad li a{
+	font-size: 14px;
+	color: #fff;
+	margin-top: 40px;
+	margin-left: 55px;
+	text-decoration: none;
+}
+
+.eagle .grad li a:hover{
+	color: #fce38a;
+	padding-bottom: 12px;
+	border-bottom: 3px solid #fce38a;
+}
+
+
+.eagle .grad img{
+	margin-top: 28px;
+}
+
+
+.mogo{
+    margin: auto;
+    width: 898px;
+	margin-top: 173px;
+	color: #fff;
+	text-align: center;
+}
+.mogo h2{
+	margin-bottom: 42px;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 72px;
+}
+
+.mogo h1{
+	line-height: 140px;
+	text-transform: uppercase;
+	font-size: 150px;
+	font-weight: 700;
+}
+
+.after-mogo{
+	width: 61px;
+	height: 3px;
+	background: #fff;
+	margin: 51px auto 60px auto;
+}
+
+.learn-more{
+	text-align: center;
+}
+
+.learn-more a{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+	padding: 12px 29px 9px 29px;
+	border: 3px solid #fff;
+}
+.bottom-eagle{
+	display: inline;
+	color: #fff;
+}
+
+.bottom-eagle div{
+	margin-top: 146px;
+	margin-right: 30px;
+	width: calc(25% - 30px) !important;
+	border-top: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+.bottom-eagle p{
+	font-size: 19px;
+    display: inline-block;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+.bottom-eagle b{
+	font-size: 25px
+}
+/****************END EAGLE BLOCK*************/
+
+/***************STORY ABOUT US BLOCK*********/
+
+.gbg{
+	display: inline-block;
+	background: #95e1d3;
+	padding: 0;
+}
+
+.gbg:hover .gd{
+	position: relative;
+	visibility: visible;
+	top:-260px;
+	left: -10px;
+}
+.gbg:hover .picture{
+	position: relative;
+	top:-10px;
+	left: -10px;
+}
+.picture, .gd, .gbg{
+	width: 380px;
+	height: 250px;
+}
+.gd{
+	visibility: hidden;
+	position: relative;
+	top:-250px;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f38181+1,fce38a+86,fce38a+86,fce38a+86,fce38a+86,fce38a+86,fce38a+86,fce38a+86,fce38a+86,fce38a+89,fce38a+89,fce38a+91,fce38a+91,fce38a+94,fce38a+94,fce38a+94,fce38a+94,fce38a+97,fce38a+97,fce38a+97,fce38a+100&1+0,0.67+100 */
+	background: -moz-linear-gradient(top,  rgba(243,129,129,1) 0%, rgba(243,129,129,1) 1%, rgba(252,227,138,0.72) 86%, rgba(252,227,138,0.71) 89%, rgba(252,227,138,0.7) 91%, rgba(252,227,138,0.69) 94%, rgba(252,227,138,0.68) 97%, rgba(252,227,138,0.67) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(243,129,129,1) 0%,rgba(243,129,129,1) 1%,rgba(252,227,138,0.72) 86%,rgba(252,227,138,0.71) 89%,rgba(252,227,138,0.7) 91%,rgba(252,227,138,0.69) 94%,rgba(252,227,138,0.68) 97%,rgba(252,227,138,0.67) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(243,129,129,1) 0%,rgba(243,129,129,1) 1%,rgba(252,227,138,0.72) 86%,rgba(252,227,138,0.71) 89%,rgba(252,227,138,0.7) 91%,rgba(252,227,138,0.69) 94%,rgba(252,227,138,0.68) 97%,rgba(252,227,138,0.67) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f38181', endColorstr='#abfce38a',GradientType=0 ); /* IE6-9 */
+
+}
+.gd i{
+	color: #fff;
+	text-align: center;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.gd p{
+	padding-top: 25px;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+}
+.row div.gbg{
+	margin-top: 100px;
+	margin-right: 30px;
+}
+.row  div.gbg:last-child{
+	margin-right: -30px;
+}
+
+/***************END STORY ABOUT US BLOCK*********/
+/***************GREEN BLOCK**********************/
+.green-bg{
+	margin-bottom: 105px;
+	background: #95e1d3;
+	margin-top: 110px;
+	min-height: 100px;
+}
+
+.green-bg .container{
+	width: 1200px;
+}
+.green-bg .container div{
+	color: #fff;
+	text-align: center;
+	padding-left: 24px;
+    margin-left: -4px;
+    padding-top: 65px;
+	padding-bottom: 75px;
+	display: inline-block;
+	width: 240px;
+}
+.green-bg .container div:nth-child(odd){
+	border-right: 1px solid #b5eae0;
+}
+.green-bg .container div b{
+	font-size: 72px;
+	font-weight: 700;
+}
+.green-bg .container div p{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+/***************END GREEN BLOCK**********************/
+/************AMAZING SERVICES BLOCK****************/
+.as{
+	padding: 0;
+	margin-top: 63px;
+}
+.as div{
+	color: #95e1d3;
+	padding-left: 29px;
+    height: 64px;
+    float: left;
+}
+
+.as span{
+	padding-left: 23px;
+	text-transform: uppercase;
+	color: #333;
+	font-size: 14px;
+}
+
+.as p{
+	margin-top: 12px;
+	padding-left: 89px;
+	color: #999;
+	font-size: 15px;
+}
+.as-border{
+    margin-top: 21px;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 44px;
+}
+
+
+/************END AMAZING SERVICES BLOCK****************/
+/************* UNIQUE DESIGN BLOCK*****************/
+.forest{
+	margin-top: 110px;
+	min-height: 850px;
+	background: url(../images/forest.jpg);
+}
+.forest-grad .ub{
+	padding-top: 103px;
+	
+}
+
+.forest-grad{
+	position: relative;
+	min-height: 850px;
+	background: rgba(255, 255, 255, 0.63);
+}
+.ipad{
+    top: 267px;
+    position: absolute;
+    left: 402px;
+}
+.iphone{
+    left: 798px;
+    top: 463px;
+    position: absolute;
+}
+/*************END UNIQUE DESIGN BLOCK*****************/
+/************** WHAT WE DO BLOCK****************/
+.wwd{
+	margin-top: 17px;
+}
+.wwd .ub{
+	margin-bottom: 85px;
+}
+.wwd .row div .wwd-border{
+	color: #95e1d3;
+	margin-bottom: 10px;
+	width: 600px;
+	border: 1px solid #e5e5e5;
+	padding: 14px 16px;
+	display: inline-block;
+}
+.wwd .row div p{
+    padding-left: 20px;
+    display: inline;
+    text-transform: uppercase;
+    color: #333;
+    font-size: 14px;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.wwd .row div span{
+	float: right;
+	color: #ccc;
+}
+.wwd-p{
+	display: inline-flex;
+	padding: 15px;
+	border: 1px solid #e5e5e5;
+	width: 600px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	
+}
+.wwd-p img{
+	float: right;
+}
+.row div.wwd-p  p{
+	color: #999;
+	font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.wwd-grey-bg{
+	margin-top: 120px;
+	background: #f8f8f8;
+	padding-top: 80px;
+	padding-bottom: 45px;
+}
+.wwd-grey-bg i.comments{
+	color: #95e1d3;
+	border: 1px solid #95e1d3;
+	padding: 45px;
+	
+}
+.wwd-grey-bg i[class*=angle]{
+	margin-top: 60px;
+}
+
+.wwd-grey-bg span{
+	display: inline-block;
+	font-family: Roboto;
+	color:  #999999;
+	font-size: 24px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	font-style: italic;
+	line-height: 36px;/* Приближение из-за подстановки шрифтов */
+}
+
+.wwd-red-line{
+	display: inline-block;
+	width: 60px;
+	border-bottom: 3px solid #f38181;
+}
+.wwd-grey-bg p{
+	display: inline-block;
+	font-family: 'Kaushan Script', cursive;
+	color:  #333333;
+	font-size: 24px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	padding: 10px
+
+}
+/**************END WHAT WE DO BLOCK****************/
+/************* MEET OUR TEAM*************/
+.mot .gbg, .mot .picture, .mot .gd{
+	height: 470px !important;
+}
+.mot .gbg .gd{
+	position: absolute;
+	top: 0px;
+}
+.mot .gbg:hover .gd{
+	top: -10px;
+	padding-left: 25%;
+    padding-top: 55%;
+}
+.mot .gbg .gd span{
+	color: #f38181;
+	background: #fce38a;
+	padding: 15px;
+	margin-left: -4px;
+} 
+.mot .gbg .gd span:hover{
+	background: #f38181;
+	color: #fce38a;
+}
+.mot div.gbg{
+	margin-bottom: 30px;
+}
+.mot div.gbg + h5{
+	margin-top: 30px;
+	text-transform: uppercase;
+	color:  #333;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	text-align: center;
+}
+.mot div.gbg + h5 + p{
+	font-family: Roboto;
+	color:  #999;
+	font-size: 15px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	font-style: italic;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
+.mot-lables{
+	vertical-align: middle;
+	margin-top: 190px;
+    display: inline-block;
+    background: #f8f8f8;
+    height: 250px;
+    width: 100%;
+}
+.mot-lables img{
+	display: block;
+	margin: 62px auto;
+}
+/********END MEET OUR TEAM*************/
+/***********SOME OF OUR WORKS*/
+.soow .row{
+	width: 100%;
+}
+.qqq{
+	height: 100px;
+background: url(../images/soow1.jpg);
+}
+/***********END SOME OF OUR WORKS*/
+

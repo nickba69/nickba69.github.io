@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,600);*, html, body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.common-bg{
+	width: 100%;
+	height: 825px;
+	background: url(../images/common_bg.jpg);
+}
+.common-bg-gradient{
+	padding-top: 190px;
+	width: 100%;
+	height: 825px;
+	background: rgba(115,97,120,1);
+	background: -moz-linear-gradient(45deg, rgba(115,97,120,1) 0%, rgba(197,155,209,0.99) 3%, rgba(4,48,87,0.65) 100%);
+	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(115,97,120,1)), color-stop(3%, rgba(197,155,209,0.99)), color-stop(100%, rgba(4,48,87,0.65)));
+	background: -webkit-linear-gradient(45deg, rgba(115,97,120,1) 0%, rgba(197,155,209,0.99) 3%, rgba(4,48,87,0.65) 100%);
+	background: -o-linear-gradient(45deg, rgba(115,97,120,1) 0%, rgba(197,155,209,0.99) 3%, rgba(4,48,87,0.65) 100%);
+	background: -ms-linear-gradient(45deg, rgba(115,97,120,1) 0%, rgba(197,155,209,0.99) 3%, rgba(4,48,87,0.65) 100%);
+	background: linear-gradient(45deg, rgba(115,97,120,1) 0%, rgba(197,155,209,0.99) 3%, rgba(4,48,87,0.65) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#736178', endColorstr='#043057', GradientType=1 );
+}
+
+.card{
+	margin: auto;	
+	width: 800px;
+	height: 600px;
+	background: url(../images/grey_line_bg1.png) no-repeat #fdfdfd;
+}
+
+.logo{
+	padding: 15px 23px;
+	width: 184px;
+	height: 52px;
+	background: #272727;
+}
+
+.headphones img{
+	margin-top: 41px;
+	margin-bottom: 17px;
+}
+div.headphones{
+	padding-left: 40px;
+}
+
+i.slider{
+	margin-left: 16px;
+	font-size: 18px;
+	color:  #37474f;
+}
+span.slider{
+	margin-top: 25px;
+	display: inline-block;
+	background-color:  #d7d7d7;
+	width: 18px;
+	height: 3px;
+}
+
+
+span.slider-blue{
+	color:  #536dfe;/*Chenge color of checked slider*/
+}
+
+
+/*******************RIGHT PART*************************/
+div.description{
+	margin-top: -6px;
+	padding-left: 40px;
+	padding-right: 40px; 
+}
+p.model{
+	display: inline-block;
+	color:  #263238;
+	font-size: 15px;/* Приближение из-за подстановки шрифтов */
+}
+.spec i{
+	color: #536dfe;
+	font-size: 15px;	
+}
+.spec p{
+    margin-left: 5px;
+	color: #536dfe;
+	display: inline-block;
+	font-size: 15px;
+    text-transform: uppercase;
+}
+
+.description h1{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.description h2{
+	display: inline-block;
+    font-size: 25px;
+    margin-top: 7px;
+    margin-bottom: 0;
+    display: inline-block;
+}
+.description h3{
+	margin-top: 16px;
+    font-size: 18px;
+    line-height: inherit;
+}
+p.description{
+    margin-top: 23px;
+    line-height: 23px;
+    font-size: 15px;
+}
+
+div.rating{
+	margin-top: 24px;
+}
+i.star{
+    font-size: 14px;
+}
+
+span.mark1{
+    margin-left: 30px;
+	color:  #f1425d;
+	font-size: 15px;
+}
+span.reviews, span.reviews1{
+	color:  #656c6f;
+	font-size: 13px;
+}
+
+div.price, .price p.price{
+    margin-top: 8px;
+    margin-bottom: 0px;
+	display: inline-block;
+	color:  #f1425d;
+	font-size: 26px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 600;
+}
+.price p {
+	color:  #37474f;
+	font-size: 12px;
+}
+p.price{
+	display: inline-block;
+}
+
+div.check-color{
+	margin-top: 20px;
+	display: inline-block;
+
+}
+.check-color p{
+	color:  #37474f;
+	font-size: 13px;
+}
+.check-color input{
+    width: 23px;
+    height: 23px;
+    margin-left: 22px;
+}
+
+div.value{
+    margin-top: 40px;
+	display: inline-block;
+}
+.value p{
+	display: inline-block;
+    margin-right: 6px;
+ 	color: #37474f:
+ 	font-size:18px;
+}
+
+.value b{
+	display: inline-block;
+	font-size: 18px;
+    padding: 15px 20px;
+    border: 1px solid gray;
+}
+.value span{
+	display: inline-block;
+    margin-left: 24px;
+    padding: 11px 40px;
+    border-radius: 0px;
+}
+.value i{
+	display: block;
+}
