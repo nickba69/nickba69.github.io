@@ -116,6 +116,7 @@ div.rating{
 	margin-top: 24px;
 }
 i.star{
+	color: #AFACAC;
     font-size: 14px;
 }
 
@@ -185,4 +186,20 @@ div.value{
 }
 .value i{
 	display: block;
+}
+
+input#mount{
+    vertical-align: middle;
+	border: none;
+	width: 90px;
+	font-size: 25px;
+	overflow-wrap: none;
+}
+
+#mount::-webkit-inner-spin-button{
+	opacity: 1;
+}
+
+span.cart1{
+	border: 1px solid red;
 }
